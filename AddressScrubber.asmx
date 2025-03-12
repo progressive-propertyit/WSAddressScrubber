@@ -1,0 +1,1 @@
+<%@ WebService Language="VB" CodeBehind="AddressScrubber.asmx.vb" Class="WSAddressScrubber.AddressScrubber" %>

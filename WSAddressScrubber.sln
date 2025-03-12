@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WSAddressScrubber", "WSAddressScrubber.vbproj", "{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{74B7AF7E-3664-447A-A51E-DA97F23A5BB7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EINS.Models", "..\..\..\..\..\Homeowners Source\Dev\Src\Libraries\EINS.Models\EINS.Models.vbproj", "{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		PROD|Any CPU = PROD|Any CPU
+		PROD|x86 = PROD|x86
+		QA|Any CPU = QA|Any CPU
+		QA|x86 = QA|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		UAT|Any CPU = UAT|Any CPU
+		UAT|x86 = UAT|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.PROD|Any CPU.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.PROD|Any CPU.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.PROD|x86.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.PROD|x86.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.QA|Any CPU.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.QA|x86.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.QA|x86.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.Release|x86.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.UAT|Any CPU.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.UAT|Any CPU.Build.0 = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.UAT|x86.ActiveCfg = Release|Any CPU
+		{60C16D93-56DF-4AF1-BA4F-246EB6D28BEF}.UAT|x86.Build.0 = Release|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Debug|x86.ActiveCfg = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Debug|x86.Build.0 = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.PROD|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.PROD|Any CPU.Build.0 = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.PROD|x86.ActiveCfg = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.PROD|x86.Build.0 = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.QA|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.QA|Any CPU.Build.0 = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.QA|x86.ActiveCfg = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.QA|x86.Build.0 = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Release|x86.ActiveCfg = Release|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.Release|x86.Build.0 = Release|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.UAT|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.UAT|Any CPU.Build.0 = Debug|Any CPU
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.UAT|x86.ActiveCfg = Debug|x86
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7}.UAT|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75D4A752-B21F-4DB5-88A3-4849DFE9CAD7} = {74B7AF7E-3664-447A-A51E-DA97F23A5BB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFE4EDDF-7D1B-470D-83F4-63A7CE958244}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/pgrproperty
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WSAddressScrubber.vbproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\..\\..\\..\\..\\Homeowners\u0020Source\\Dev\\Src\\Libraries\\EINS.Models\\EINS.Models.vbproj
+		SccProjectTopLevelParentUniqueName2 = WSAddressScrubber.sln
+		SccProjectName2 = ../../../../../Homeowners\u0020Source/Dev/Src/Libraries/EINS.Models
+		SccLocalPath2 = ..\\..\\..\\..\\..\\Homeowners\u0020Source\\Dev\\Src\\Libraries\\EINS.Models
+	EndGlobalSection
+EndGlobal
